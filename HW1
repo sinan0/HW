@@ -1,8 +1,0 @@
-value1=input("Enter value 1:")
-value2=input("Enter value 3:")
-value3=int(input("Enter value 3:"))
-value4=float(input("Enter value 4:"))
-value5=int(input("Enter value 5:"))
-print("Value 1: {}\nValue 2: {}".format(value1,value2))
-print("Value3:",value3,"\nValue 4:",value4)
-print(f'Value 5: {value5}')
