@@ -1,8 +1,9 @@
+name=input("What is your name?")
+print("WELCOME",name)
 import random
 print("Rulles:\n1.You have the right to answer 8 wrong answers.\n2.If you enter the same letter again, your right will decrease.\n3.Enter lower case.")
 animal=["dog","cat","rabbit","parrot","dolphin","sheep","bird","crab","ducks","goat","eagle","lion","owl","zebra","crocodie","mouse","hamster"]
 word=list(random.choice(animal))
-print(word)
 j=len(word)
 i=8
 line=list(len(word)*"_")
